@@ -10,6 +10,6 @@ add_library(metis ${METIS_LIBRARY_TYPE} ${metis_sources})
 if(METIS_INSTALL)
   install(TARGETS metis
     LIBRARY DESTINATION lib
-    RUNTIME DESTINATION lib
+    RUNTIME DESTINATION bin
     ARCHIVE DESTINATION lib)
 endif()
